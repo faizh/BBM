@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Play">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg2"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/start"
+            android:id="@+id/btn_start"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_above="@+id/txt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/txt"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btn_exit"
+            android:src="@drawable/ic_exit_to_app_black_24dp"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txt"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

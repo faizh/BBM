@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg2"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            android:layout_centerInParent="true"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hewanlebah"
+            android:id="@+id/img1"
+            android:layout_above="@+id/txt"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:maxWidth="120dp"
+            android:maxHeight="120dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="50dp"
+            android:background="@null"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hewankucing"
+            android:id="@+id/img2"
+            android:layout_above="@+id/txt"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:maxWidth="120dp"
+            android:background="@null"
+            android:maxHeight="120dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="50dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hewananjing"
+            android:id="@+id/img3"
+            android:layout_below="@id/txt"
+            android:layout_marginLeft="30dp"
+            android:background="@null"
+            android:layout_alignParentLeft="true"
+            android:maxWidth="120dp"
+            android:maxHeight="120dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="50dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hewanpanda"
+            android:id="@+id/img4"
+            android:background="@null"
+            android:layout_below="@id/txt"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:maxWidth="120dp"
+            android:maxHeight="120dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="50dp" />
+    </RelativeLayout>
+
+</FrameLayout>

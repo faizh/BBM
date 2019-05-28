@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modul">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg1"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/huruf"
+            android:id="@+id/btn_huruf"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_above="@+id/btn_hewan"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="60dp"/>
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/angka"
+            android:id="@+id/btn_angka"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_above="@+id/btn_buah"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="40dp"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hewan"
+            android:id="@+id/btn_hewan"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"/>
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/buah"
+            android:id="@+id/btn_buah"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"/>
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bentuk"
+            android:id="@+id/btn_bentuk"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_below="@+id/btn_hewan"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"/>
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/warna"
+            android:id="@+id/btn_warna"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_below="@+id/btn_buah"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"/>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

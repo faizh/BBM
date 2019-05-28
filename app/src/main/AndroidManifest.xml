@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.education.app.newlogin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bbm_icon"
+        android:logo="@mipmap/bbm_icon"
+        android:label="Belajar Bersama Miki (BBM)"
+        android:roundIcon="@mipmap/bbm_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Modul" />
+        <activity android:name=".Play" />
+        <activity android:name=".huruf" />
+        <activity android:name=".angka" />
+        <activity android:name=".hewan" />
+        <activity android:name=".buah" />
+        <activity android:name=".bentuk" />
+        <activity android:name=".warna" />
+        <activity android:name=".Game" />
+        <activity android:name=".SubMainHuruf" />
+        <activity android:name=".SubMainAngka" />
+        <activity android:name=".SubMainHewan" />
+        <activity android:name=".SubMainBuah" />
+        <activity android:name=".SubMainWarna" />
+        <activity android:name=".SubMainBentuk" />
+        <activity android:name=".Game2" />
+        <activity android:name=".Game3" />
+        <activity android:name=".Game4" />
+        <activity android:name=".Game5" />
+        <activity android:name=".Game6" />
+        <activity android:name=".Game7" />
+        <activity android:name=".Game8" />
+        <activity android:name=".angkapuluhan" />
+        <activity android:name=".angkaratusan" />
+        <activity android:name=".warnadasar" />
+        <activity android:name=".buahasam" />
+        <activity android:name=".bentuk3d" />
+        <activity android:name=".hewankarnivora" />
+        <activity android:name=".hewanomnivora" />
+        <activity android:name=".hurufkecil"></activity>
+    </application>
+
+</manifest>

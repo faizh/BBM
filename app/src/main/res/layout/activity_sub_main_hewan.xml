@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubMainHewan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg1"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgherbivora"
+            android:src="@drawable/mainhewan1"
+            android:background="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/imgkarnivora"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgkarnivora"
+            android:src="@drawable/mainhewan2"
+            android:background="@null"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgomnivora"
+            android:src="@drawable/mainhewan3"
+            android:background="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imgkarnivora"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
